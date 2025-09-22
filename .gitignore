@@ -1,0 +1,42 @@
+# ------------------------
+# Python
+# ------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.h5
+*.db
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Virtual Environments
+venv/
+env/
+.venv/
+mlflow_venv/
+
+# ------------------------
+# MLflow
+# ------------------------
+mlruns/
+models/
+
+# ------------------------
+# OS / Editor Specific
+# ------------------------
+.DS_Store
+*.swp
+*.swo
+.idea/
+.vscode/
+*.log
+
+# ------------------------
+# Packaging
+# ------------------------
+*.egg-info/
+dist/
+build/
